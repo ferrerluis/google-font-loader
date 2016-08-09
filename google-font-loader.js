@@ -23,6 +23,7 @@ GoogleFontLoader.prototype.remove = function (family) {
     for (i = 0; i < this.added.length; i++) {
         if (this.added[i].href === this.baseUrl + family.replace(' ', '+')) {
             this.added[i].remove();
+            return this.added[i];
         }
     }
 };
