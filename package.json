@@ -4,7 +4,7 @@
   "description": "Small and light-weight library to download and setup Google Fonts for client side apps",
   "main": "google-font-loader.js",
   "scripts": {
-    "test": "./node_modules/.bin/karma start --browsers Firefox --single-run"
+    "test": "./node_modules/.bin/karma start --single-run"
   },
 
   "devDependencies": {
