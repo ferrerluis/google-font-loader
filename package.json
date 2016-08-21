@@ -6,11 +6,6 @@
   "scripts": {
     "test": "./node_modules/.bin/karma start --single-run"
   },
-
-  "devDependencies": {
-    "karma": "~0.8"
-  },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ferrerluis/google-font-loader.git"
@@ -20,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ferrerluis/google-font-loader/issues"
   },
-  "homepage": "https://github.com/ferrerluis/google-font-loader#readme"
+  "homepage": "https://github.com/ferrerluis/google-font-loader#readme",
+  "devDependencies": {
+    "jasmine": "2.4.1",
+    "karma": "1.2.0"
+  }
 }
