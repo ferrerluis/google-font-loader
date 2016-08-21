@@ -1,0 +1,24 @@
+{
+  "name": "google-font-loader",
+  "version": "1.0.0",
+  "description": "Small and light-weight library to download and setup Google Fonts for client side apps",
+  "main": "google-font-loader.js",
+  "scripts": {
+    "test": "'./node_modules/.bin/karma start --browsers Firefox --single-run'"
+  },
+
+  'devDependencies': {
+    'karma': '~0.8'
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferrerluis/google-font-loader.git"
+  },
+  "author": "Luis Ferrer-Labarca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ferrerluis/google-font-loader/issues"
+  },
+  "homepage": "https://github.com/ferrerluis/google-font-loader#readme"
+}
