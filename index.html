@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Index</title>
-    <script src="google-font-loader.js"></script>
+  <meta charset="UTF-8">
+  <title>Index</title>
+  <script src="google-font-loader.js"></script>
+  <script src="families.js"></script>
 </head>
 <body>
-    <script>
-        var loader = new GoogleFontLoader();
-        loader.load("Roboto");
-    </script>
+  <h1 id="title">Much test. Very website. So wow.</h1>
+
+  <script>
+    var loader = new GoogleFontLoader();
+
+    document.addEventListener('keypress', function(event) {
+      console.log(event.keyCode);
+
+      var title = document.getElementById('title');
+
+      if (event.keyCode === 32) {
+        var random = families[Math.floor(Math.random() * families.length)];
+
+        loader.load(random);
+        title.style.fontFamily = random;
+      }
+    });
+  </script>
 </body>
 </html>
